@@ -20,17 +20,43 @@
     They are a hardy breed, having been bred to withstand the conditions in the Scottish Highlands. Their long hair gives the breed its ability to overwinter. Bulls can weigh up to 800 kilograms (1,800 pounds) and cows up to 500 kilograms (1,100 pounds). Their milk generally has a very high butterfat content, and their meat, regarded as of the highest quality, is gaining mainstream acceptance as it is lower in cholesterol than other varieties of beef.</p>
     <img src="1280px-cow_on_pupers.jpg"
         alt="amazing fluffy"/>
+
+
+
+
         <div id="app-4">
-          <h1>Cows in varying levels of weirdness </h1>
+
+            <table class="pure-table">
+                <thead>
+                    <tr>
+                        <th>cows in varying levels of weirdness</th>
+                        <th>orgin</th>
+                    </tr>
+                </thead>
+            
+                <tbody>
+                    <tr v-for="entry in list">
+                        <td>{{ entry.breed }}</td>
+                        <td>{{ entry.origin }}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+          <h1>reasons to be a fan of cows</h1>
             <ol>
               <li v-for="entry in list">
                 <h2>
-                  {{ entry.breed }}
+                  they are like big dogs
                 </h2>
-                <p>{{ entry.origin }}</p>
+                <p></p>
               </li>
             </ol>
           </div>
+
+
+
+
+
          
          </body>
          
