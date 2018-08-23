@@ -22,3 +22,7 @@ p{
     color: blueviolet;
     background-color: rgb(22, 123, 218);
 }
+.pure-table{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(41, 134, 221)
+}
