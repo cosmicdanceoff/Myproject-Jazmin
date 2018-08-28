@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Document</title>
 </head>
+
 <body>
-    <p>hello</p>
+ <div>
+Hello, this is a test
+
+   <div id="viewport"></div>
+
+ </div>
+ <script>
+   var album = {
+     name: '36 chambers',
+     artist: 'wtc',
+   }
+
+   function renderAlbum(album) {
+     // return DOM element
+     var newElement = document.createElement('h2')
+     var textNode = document.createTextNode('HELP US !!')
+     newElement.appendChild(textNode)
+
+     return newElement
+   }
+
+   var component = renderAlbum(album)
+   document.getElementById('viewport').appendChild(component)
+   viewport.appendChild(newElement)
+ </script>
 </body>
+
 </html>
