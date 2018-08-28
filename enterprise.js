@@ -1,3 +1,4 @@
+
 workers = [
   { name: "paul", alive: true, salary: 5000 },
   { name: "rob", alive: false, salary: 3000 },
